@@ -16,19 +16,19 @@ Postman (for API testing)
 ### Installation and Setup
   Follow these steps to get the project running on your local machine:
 
-1. Clone the Repository
-git clone <URl>
-2. Navigate to the Project Directory
+# 1. Clone the Repository
+git clone https://github.com/balendra3316/node-api-assignment.git
+# 2. Navigate to the Project Directory
 cd node-api-assignment
-3. Install Dependencies
+# 3. Install Dependencies
 Make sure you have Node.js installed on your machine. Then, install the required dependencies:
 npm install
-4. Create .env File
+# 4. Create .env File
 Create a .env file in the root directory to store your environment variables:
 MONGO_URI=mongodb://0.0.0.0:27017/Apitest_db
 PORT=5000
 
-5. Run the Server
+# 5. Run the Server
 Run the server locally with the following command:
 npm start
 
